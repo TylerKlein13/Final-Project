@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: #ff4757;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  color: #ff6b81;
+  outline: none;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 1000px;
+}
+
+/* News & Reviews */
+article {
+  background: #1a1a1a;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Video Styling */
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  header { padding: 15px; }
+  section { padding: 15px; }
+  nav ul { gap: 12px; }
+  article { padding: 12px; }
+}
